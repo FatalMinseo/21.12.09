@@ -3,7 +3,7 @@ package Exam02;
 import java.util.Random;
 import java.util.Scanner;
 
-public class KartMain {
+public class KartMain {	// ë©”ì¸
 
 	public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class KartMain {
 		Random rd =new Random();
 		
 		while (Paragon.myPosition < 100) {
-			System.out.println("[1] ÀüÁø [2] ÈÄÁø [3] ºÎ½ºÅÍ");
+			System.out.println("[1] ì „ì§„ [2] í›„ì§„ [3] ë¶€ìŠ¤í„°");
 			int menu = sc.nextInt();
 			int run = rd.nextInt(21)-10;
 			System.out.println(run);
@@ -26,11 +26,11 @@ public class KartMain {
 				Paragon.Booster(run);
 			
 			} else {
-				System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+				System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			}
-			System.out.println("ÇöÀçÀ§Ä¡´Â "+Paragon.myPosition+"ÀÔ´Ï´Ù");
+			System.out.println("í˜„ì¬ìœ„ì¹˜ëŠ” "+Paragon.myPosition+"ì…ë‹ˆë‹¤");
 		}
-		System.out.println("°á½ÂÁ¡¿¡ µµÂøÇß½À´Ï´Ù");
+		System.out.println("ê²°ìŠ¹ì ì— ë„ì°©í–ˆìŠµë‹ˆë‹¤");
 	}
 
 }
